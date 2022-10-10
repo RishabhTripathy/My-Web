@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+h1 {
+  color: #fff;
+  position: relative;
+  animation-name: heading;
+  animation-duration: 4s;
+}
+
+@keyframes heading {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 120px;
+  }
+}
+
+body {
+  background-image: url(E:\web-development\myweb\myweb\public\images\bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.96;
+}

@@ -1,0 +1,15 @@
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.mycontact {
+  margin: 8rem 30rem;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: #fff;
+  padding: 1rem 5rem;
+  font-weight: 500;
+}

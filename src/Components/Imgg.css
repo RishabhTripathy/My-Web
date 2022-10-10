@@ -1,0 +1,22 @@
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+.views {
+  border: 2px solid white;
+  border-radius: 3px;
+}
+img{
+    height: 20rem;
+    width: 30rem;
+    transition: all 4s;
+    margin: 0.5rem 0 ;
+}
+img:hover{
+    transform: rotate(45deg) translate(200px);
+}
